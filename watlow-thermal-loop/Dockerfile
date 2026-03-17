@@ -9,6 +9,9 @@
 # Open:   http://localhost:8080
 # =============================================
 
+
+# Watlow Thermal Loop — Production Container
+# =============================================
 FROM nginx:alpine
 
 # Copy custom nginx config
