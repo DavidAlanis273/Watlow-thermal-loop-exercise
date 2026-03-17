@@ -13,7 +13,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - Branching strategy documentation
 - PR template
 
-## [v1.0.0] — TBD
+## [v1.3.17.26] — TBD
 
 ### Added
 - Header with responsive navigation

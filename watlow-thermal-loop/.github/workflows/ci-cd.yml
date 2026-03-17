@@ -1,3 +1,5 @@
+# CI/CD Pipeline for Watlow Thermal Loop
+
 name: CI/CD Pipeline
 
 on:
@@ -22,51 +24,51 @@ jobs:
 
       - name: Check HTML structure
         run: |
-          echo "🔍 Checking HTML files..."
+          echo "Checking HTML files..."
           # Verify index.html exists
           if [ ! -f src/index.html ]; then
-            echo "❌ src/index.html not found!"
+            echo "src/index.html not found!"
             exit 1
           fi
-          echo "✅ index.html found"
+          echo "index.html found"
 
           # Check for required sections
           for section in header hero solutions industries stats footer; do
             if grep -qi "$section" src/index.html; then
-              echo "✅ Found section: $section"
+              echo "Found section: $section"
             else
-              echo "⚠️  Missing section: $section"
+              echo "Missing section: $section"
             fi
           done
 
       - name: Check CSS structure
         run: |
-          echo "🔍 Checking CSS files..."
+          echo "Checking CSS files..."
           if [ ! -f src/css/styles.css ]; then
-            echo "❌ src/css/styles.css not found!"
+            echo "src/css/styles.css not found!"
             exit 1
           fi
-          echo "✅ styles.css found ($(wc -l < src/css/styles.css) lines)"
+          echo "styles.css found ($(wc -l < src/css/styles.css) lines)"
 
       - name: Check JS structure
         run: |
-          echo "🔍 Checking JS files..."
+          echo "Checking JS files..."
           if [ ! -f src/js/main.js ]; then
-            echo "❌ src/js/main.js not found!"
+            echo "src/js/main.js not found!"
             exit 1
           fi
-          echo "✅ main.js found ($(wc -l < src/js/main.js) lines)"
+          echo "main.js found ($(wc -l < src/js/main.js) lines)"
 
       - name: Validate no broken internal links
         run: |
-          echo "🔍 Checking internal links..."
+          echo "Checking internal links..."
           # Check that CSS and JS files referenced in HTML exist
           grep -oP 'href="(?!http|#|mailto)([^"]+)"' src/index.html | while read -r link; do
             file=$(echo "$link" | sed 's/href="//;s/"//')
             if [ -f "src/$file" ]; then
-              echo "✅ Link OK: $file"
+              echo "Link OK: $file"
             else
-              echo "⚠️  Link may be broken: $file"
+              echo "Link may be broken: $file"
             fi
           done
 
