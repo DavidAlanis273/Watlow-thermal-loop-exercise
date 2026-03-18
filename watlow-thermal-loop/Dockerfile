@@ -1,17 +1,10 @@
-# =============================================
 # Watlow Thermal Loop — Docker Container
-# =============================================
 # This Dockerfile packages the static site into
 # an nginx container for production deployment.
-#
 # Build:  docker build -t watlow-thermal-loop .
-# Run:    docker run -p 8080:80 watlow-thermal-loop
 # Open:   http://localhost:8080
-# =============================================
-
 
 # Watlow Thermal Loop — Production Container
-# =============================================
 FROM nginx:alpine
 
 # Copy custom nginx config
