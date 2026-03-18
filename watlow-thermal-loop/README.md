@@ -4,7 +4,7 @@ A recreation of the [Watlow "Solutions for the Complete Thermal Loop"](https://w
 
 ## What This Project Covers
 
-| Skill | Where You'll Practice It |
+| Skill | Where to Practice It |
 |---|---|
 | Cloning repositories | Step 1 — Clone this repo to your local machine |
 | Creating feature branches | Steps 3–7 — One branch per page section |
