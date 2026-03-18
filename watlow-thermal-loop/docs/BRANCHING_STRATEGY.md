@@ -39,7 +39,7 @@ features         │    │    │    │    │    │
 ## When to Use Each Branch Type
 
 ### `feature/*`
-You're adding something new. In this project, each page section gets its own feature branch.
+Each page section gets its own feature branch.
 
 ### `hotfix/*`
 Something is broken in production (`main`). Branch off `main`, fix it, merge back into both `main` and `develop`.
