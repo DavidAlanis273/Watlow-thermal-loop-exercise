@@ -20,20 +20,20 @@ A recreation of the [Watlow "Solutions for the Complete Thermal Loop"](https://w
 
 ```
 watlow-thermal-loop/
-├── README.md                  ← You are here
-├── CONTRIBUTING.md            ← Branching strategy & commit conventions
-├── CHANGELOG.md               ← Version history
+├── README.md            
+├── CONTRIBUTING.md            - Branching strategy & commit conventions
+├── CHANGELOG.md               - Version history
 ├── .gitignore
 ├── docs/
-│   ├── BRANCHING_STRATEGY.md  ← Visual diagram of branch model
-│   └── PR_TEMPLATE.md        ← Pull request template
+│   ├── BRANCHING_STRATEGY.md  - Visual diagram of branch model
+│   └── PR_TEMPLATE.md        - Pull request template
 ├── src/
-│   ├── index.html             ← Main page
+│   ├── index.html             - Main page
 │   ├── css/
-│   │   └── styles.css         ← All styles
+│   │   └── styles.css         
 │   ├── js/
-│   │   └── main.js            ← Interactivity
-│   └── assets/                ← Images, icons, fonts
+│   │   └── main.js            - Mostly for animations
+│   └── assets/                - Images, icons, fonts
 └── .github/
     └── pull_request_template.md
 ```
@@ -66,26 +66,16 @@ main ─────────────────────────
 | `release/*` | Prep for a tagged release | `release/v1.0.0` |
 
 ---
-
-## Step-by-Step Workflow
-
-### Prerequisites
-- Git installed (`git --version`)
-- VS Code installed with GitLens extension (recommended)
-- GitHub account with a repo created for this project
-
----
-
 ### Step 1: Initialize & Push the Repo
 
 ```bash
-# Create the repo on GitHub first (empty, no README), then:
+# Create the repo on GitHub first.
 cd watlow-thermal-loop
 git init
 git add .
 git commit -m "chore: initial project structure and documentation"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/watlow-thermal-loop.git
+git remote add origin https://github.com/USERNAME/watlow-thermal-loop.git
 git push -u origin main
 ```
 
