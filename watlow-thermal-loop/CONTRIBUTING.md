@@ -42,7 +42,6 @@ This project follows a simplified **Gitflow** model.
 
 ```
 feat(header): add responsive navigation bar
-style(header): apply Watlow brand colors to nav
 fix(header): correct logo alignment on mobile
 ```
 
