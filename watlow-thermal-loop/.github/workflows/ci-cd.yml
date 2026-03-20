@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 jobs:
-  #JOB 1: Validate HTML
+  # JOB 1: Validate HTML ----
   validate:
     name: Validate HTML
     runs-on: ubuntu-latest

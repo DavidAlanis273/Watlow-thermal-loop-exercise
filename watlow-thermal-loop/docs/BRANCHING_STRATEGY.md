@@ -1,8 +1,5 @@
-# Branching Strategy — Visual Reference
+# Branching Strategy
 
-## Gitflow Overview
-
-This project uses a **Gitflow** branching model. Here's the full picture:
 
 ```
 TIME ──────────────────────────────────────────────────────────────────►
@@ -39,7 +36,7 @@ features         │    │    │    │    │    │
 ## When to Use Each Branch Type
 
 ### `feature/*`
-Each page section gets its own feature branch.
+You're adding something new. In this project, each page section gets its own feature branch.
 
 ### `hotfix/*`
 Something is broken in production (`main`). Branch off `main`, fix it, merge back into both `main` and `develop`.

@@ -1,8 +1,5 @@
-/* =============================================
-   WATLOW THERMAL LOOP — STYLES
-   ============================================= */
 
-/* --- CSS Variables / Design Tokens --- */
+/*CSS Variables*/
 :root {
   /* Brand Colors */
   --watlow-red: #c8102e;
@@ -43,7 +40,7 @@
 }
 
 
-/* --- Reset & Base --- */
+/*Reset & Base*/
 *,
 *::before,
 *::after {
@@ -88,7 +85,7 @@ img {
 }
 
 
-/* --- Buttons --- */
+/*Buttons*/
 .btn {
   display: inline-flex;
   align-items: center;
@@ -144,7 +141,7 @@ img {
 }
 
 
-/* --- Section Headers --- */
+/*Section Headers*/
 .section-label {
   font-family: var(--font-display);
   font-size: 0.75rem;
@@ -178,9 +175,7 @@ img {
 }
 
 
-/* =============================================
-   HEADER
-   ============================================= */
+/* HEADER */
 .header {
   position: fixed;
   top: 0;
@@ -298,9 +293,7 @@ img {
 }
 
 
-/* =============================================
-   HERO
-   ============================================= */
+/* HERO */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -437,9 +430,7 @@ img {
 }
 
 
-/* =============================================
-   SOLUTIONS
-   ============================================= */
+/* SOLUTIONS */
 .solutions {
   padding: var(--section-padding) 0;
   background: var(--watlow-gray-50);
@@ -528,9 +519,7 @@ img {
 }
 
 
-/* =============================================
-   THERMAL LOOP EXPLAINER
-   ============================================= */
+/* THERMAL LOOP EXPLAINER */
 .loop-explainer {
   padding: var(--section-padding) 0;
   background: var(--watlow-navy);
@@ -638,12 +627,8 @@ img {
 }
 
 
-/* =============================================
-   INDUSTRIES
-   ============================================= */
-/* =============================================
-   INDUSTRIES
-   ============================================= */
+/* INDUSTRIES */
+
 .industries {
   padding: var(--section-padding) 0;
   background: var(--watlow-white);
@@ -697,9 +682,7 @@ img {
 }
 
 
-/* =============================================
-   STATS
-   ============================================= */
+/* STATS */
 .stats {
   padding: var(--section-padding) 0;
   background: var(--watlow-gray-50);
@@ -752,9 +735,7 @@ img {
   border-bottom: 1px solid var(--watlow-gray-300);
 }
 
-/* =============================================
-   NEWS + JOIN OUR TEAM
-   ============================================= */
+/* NEWS + JOIN OUR TEAM */
 .news {
   padding: var(--section-padding) 0;
   background: var(--watlow-white);
@@ -847,9 +828,7 @@ img {
 }
 
 
-/* =============================================
-   IN-REGION MANUFACTURING
-   ============================================= */
+/* IN-REGION MANUFACTURING */
 .manufacturing {
   padding: var(--section-padding) 0;
   background: var(--watlow-gray-50);
@@ -868,9 +847,7 @@ img {
 
 
 
-/* =============================================
-   FOOTER
-   ============================================= */
+/* FOOTER */
 .footer {
   padding: 4rem 0 0;
   background: var(--watlow-navy);
@@ -961,9 +938,7 @@ img {
 }
 
 
-/* =============================================
-   MOBILE NAV OVERLAY
-   ============================================= */
+/* MOBILE NAV OVERLAY */
 .nav-overlay {
   position: fixed;
   inset: 0;
