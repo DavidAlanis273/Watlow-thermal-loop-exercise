@@ -2,7 +2,6 @@
 
 Each feature branch = one section of the page.
 
-- Start with an empty index.html
 - Each feature branch adds one section
 - Each branch gets committed, pushed, and merged via PR
 
