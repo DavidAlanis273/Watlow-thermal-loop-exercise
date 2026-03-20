@@ -34,14 +34,14 @@ git checkout -b develop
 git push -u origin develop
 ```
 
-### Step 3: Feature Branch — Header & Navigation (IS THE SAME PROCESS FOR OTHER BRANCHES)
+### Step 3: Feature Branch Header & Navigation (IS THE SAME PROCESS FOR OTHER BRANCHES)
 
 ```bash
 git checkout develop
 git checkout -b feature/header-nav
 
 # Build the header section in src/index.html and src/css/styles.css
-# Make small commits as you go:
+# Make small commits:
 git add src/index.html
 git commit -m "feat(header): add HTML structure for navbar"
 
