@@ -1,9 +1,9 @@
 ## Branching Strategy (Gitflow)
 
 ```
-main ─────────────────────────────────────────────► (production releases)
+main ─────────────────────────────────────────────► 
   │
-  └── develop ────────────────────────────────────► (integration branch)
+  └── develop ────────────────────────────────────► 
         │        │        │        │        │
         │   feature/   feature/  feature/  feature/
         │   header     hero     products   footer
