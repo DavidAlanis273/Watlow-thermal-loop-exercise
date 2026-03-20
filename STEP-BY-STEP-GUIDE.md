@@ -5,7 +5,7 @@ Each feature branch = one section of the page.
 - Each feature branch adds one section
 - Each branch gets committed, pushed, and merged via PR
 
-### Step 1 — Feature Branch: Header & Navigation
+### Step 1 Feature Branch: Header & Navigation
 
 ```bash
 git checkout develop
