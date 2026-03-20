@@ -1,8 +1,10 @@
-/* WATLOW THERMAL LOOP — SCRIPTS*/
+/* =============================================
+   WATLOW THERMAL LOOP — SCRIPTS
+   ============================================= */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  //Header scroll effect
+  // ---- Header scroll effect ----
   const header = document.getElementById('header');
   let lastScroll = 0;
 
@@ -19,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', handleScroll, { passive: true });
 
 
-  //Mobile menu toggle
+  // ---- Mobile menu toggle ----
   const menuToggle = document.getElementById('menuToggle');
   const mainNav = document.getElementById('mainNav');
   let overlay = null;
@@ -59,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  //Scroll animations for all sections
+  // ---- Scroll animations for all sections ----
   const animatedElements = document.querySelectorAll(
     '.solution-card, .industry-card, .news-item, .loop-explainer__text, .loop-diagram, .stat-card, .manufacturing__map, .tagline__text, .section-header, .news__image, .footer__brand, .footer__links'
   );
@@ -101,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
   animatedElements.forEach(el => scrollObserver.observe(el));
 
 
-  //Smooth scroll for anchor links
+  // ---- Smooth scroll for anchor links ----
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
       const targetId = anchor.getAttribute('href');
